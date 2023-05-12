@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    color: white;
+    background: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*@media screen and (min-width:1400px) {
+    body{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}*/
+
+a{
+    text-decoration: none;
+}
+
+/*HEADER STYLES*/
+header{
+    width: 100%;
+    height: 93vh;
+    background-image: url(Assets/Illustrations/Bathome1.png) no-repeat;
+    background-size: 100vw 90vh;
+    margin-top: 0;
+}
+.element-haut{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    text-decoration: underline;
+}
+.element-haut p{
+    margin-top: 0;
+}
+.element-haut img{
+    height: 4vh;
+    width: auto;
+}
+
+#text-home a{
+    text-decoration: none;
+    color: white;
+}
+
+.article-header{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 40vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+.article-header p{
+    text-align: center;
+}
+
+.article-header #p-bold{
+    font-weight: bold;
+}
+
+.bouton-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6vh;
+}
+.bouton-header button{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(to right, rgba(2555,255,255,0.5), rgba(255,255,255, 0));
+    border: none;
+    height: 5vh;
+    margin-right: 2vw;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: 0.8s;
+}
+
+.bouton-header button:hover{
+    background: linear-gradient(to right, rgba(2555,255,255,0), rgba(255,255,255, 0.5));
+    transition: 0.8s;
+}
+
+button a{
+    color: white;
+}
+
+aside{
+    position: fixed;
+    margin-top: 44vh;
+    margin-left: 80vw;
+    margin-right: 8vw;
+    padding: 0;
+}
+
+aside ul{
+    list-style-type: none;
+    align-items: center;
+}
+
+aside ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+aside ul li img{
+    transition: 0.4s;
+}
+
+.element-haut img:hover, aside ul li img:hover{
+    /*margin-top: -10px;
+    margin-bottom: 10px;*/
+    
+        filter: brightness(0) saturate(100%) invert(88%) sepia(93%) saturate(1187%) hue-rotate(357deg) brightness(104%) contrast(105%);
+    
+   
+}
+
+/**/
+
+
+.fleche-bas{
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+}
+.fleche-bas a img{
+    transition: 0.4s;
+}
+.fleche-bas a img:hover{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    transition: 0.4s;
+}
+
+article p{
+    text-align: justify;
+}
+
+.titre{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.t-a2 img{
+    margin-left: -45px;
+    margin-bottom: -10px;
+    width: 100px;
+}
+
+.text, #imdb-text{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-right: 16vw;
+    
+}
+
+.image-a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7vh;
+}
+
+.img-bat{
+    margin-right: 50px;
+}
+
+.img-bat img{
+    width: 300px;
+    transition: 0.4s;
+}
+.img-bat img:hover{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+.img-bat p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-margin{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+.allies img{
+    margin-left: 65vw;
+    margin-top: -10vh;
+}
+
+
+.justice-league-img img{
+    width: 100%;
+    height: auto;
+}
+
+.bat-begin{
+    display: flex;
+    justify-content: center;
+
+}
+.bat-begin .element-bat-begin{
+    display: flex;
+    margin-right: 10vw;
+}
+
+#fleche-bat-begin{
+    height: 8vh;
+    margin-top: 10vh;
+    
+}
+
+.text-bat-begin{
+    background: linear-gradient(to right,gray, #19587D );
+    width: 30vw;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 10px;
+    border-radius: 15px;
+    margin-left: -15px;
+}
+#bat-begin-img{
+    z-index: 1;
+}
+.bande-annonce{
+    display: flex;
+    margin-top: 10vh;
+}
+
+#p-bat-begin-title{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#bat-begin-text{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+#p-bat-begin{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    /*background: linear-gradient(to right,gray, #19587D );*/
+    background: linear-gradient(to top left, #0f2027, #203a43, #3a4d41);
+    padding-bottom: 30px;
+}
+
+form>input {
+    display: block;
+    color: #fff;
+    font-family: "Space Grotesk", sans-serif;
+    width: 99%;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    margin-top: 15px;
+}
+.btn-nws{
+    display: flex;
+    justify-content: center;
+}
+.btn-nws button{
+     width: 150px;
+    height: 40px;
+    border-image: linear-gradient(160deg, hsl(0, 0%, 60%), hsl(198, 80%, 28%)) 1;
+    background-color: transparent;
+    color: white;
+    margin-right: 30px;
+    outline: none;
+} 
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+#submit{
+     background: linear-gradient(to right, hsl(40, 40%, 84%), hsl(356, 60%, 40%));
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 14px;
+    text-align: center;
+}
+#form-title {
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 25px;
+}
+
+form h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+}
+footer{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.citation{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#footer-logo{
+    width: 30px;
+}
+
+#gui-ferme{
+
+    margin-top: 10vh;
+}
+
