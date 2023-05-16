@@ -18,8 +18,13 @@ a{
 header{
     width: 100%;
     height: 93vh;
+<<<<<<< HEAD
     background-image: url(../Assets/Illustrations/Bathome1.png);
     background-repeat:  no-repeat;
+=======
+    background-image: url(Assets/Illustrations/Bathome1.png);
+    background-repeat: no-repeat;
+>>>>>>> ac9b64646655a9ea19beb286102eefd322adec2a
     background-size: 100vw 90vh;
     margin-top: 0;
 }
