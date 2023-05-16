@@ -6,11 +6,25 @@ body{
     margin-right: 5px;
 }
 
+.trait{
+    
+    position: fixed;
+    margin-left: 84.7vw;
+    border-left: 4px solid rgb(197, 184, 184);
+    opacity: 0.2;
+    height: 100vh;
+}
+#up{
+    position: relative;
+    z-index: 2;
+}
+
 button{
     cursor: pointer;
 }
 
 a{
+    cursor: pointer;
     text-decoration: none;
 }
 
@@ -18,13 +32,8 @@ a{
 header{
     width: 100%;
     height: 93vh;
-<<<<<<< HEAD
     background-image: url(../Assets/Illustrations/Bathome1.png);
     background-repeat:  no-repeat;
-=======
-    background-image: url(Assets/Illustrations/Bathome1.png);
-    background-repeat: no-repeat;
->>>>>>> ac9b64646655a9ea19beb286102eefd322adec2a
     background-size: 100vw 90vh;
     margin-top: 0;
 }
@@ -35,8 +44,8 @@ header{
     padding-top: 4vh;
     display: flex;
     justify-content: space-between;
-    margin-left: 8vw;
-    margin-right: 8vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
     text-decoration: underline;
 }
 .element-haut p{
@@ -103,6 +112,7 @@ aside{
     margin-left: 80vw;
     margin-right: 8vw;
     padding: 0;
+    z-index: 3;
 }
 
 aside ul{
@@ -115,12 +125,8 @@ aside ul li{
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    transition: 0.4s;
 }
 
-aside ul li img{
-    transition: 0.4s;
-}
 
 .element-haut img:hover, aside ul li img:hover{
     /*margin-top: -10px;
@@ -167,7 +173,7 @@ article p{
 .text, #imdb-text{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: lighter;
-    font-size: 14px;
+    font-size: 18px;
     margin-right: 16vw;
     
 }
@@ -213,6 +219,7 @@ article p{
 
 
 .justice-league-img img{
+    
     width: 100%;
     height: auto;
 }
@@ -263,7 +270,7 @@ article p{
     font-weight: lighter;
 }
 
-#p-bat-begin{
+#p-bat-begin, .wb{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: lighter;
     font-size: 12px;
@@ -325,9 +332,11 @@ form>input {
     margin-top: 25px;
 }
 
-form h2{
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: 400;
+.formulaire form h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
 }
 footer{
     margin-top: 10vh;
@@ -349,3 +358,10 @@ footer{
     margin-top: 10vh;
 }
 
+#icon-wb{
+    margin-top: 40px;
+}
+
+#icn-btm{
+    margin-right: 20px;
+}
