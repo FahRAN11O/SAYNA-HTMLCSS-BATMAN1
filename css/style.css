@@ -27,7 +27,7 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
-
+/**************************************************************************/
 /*HEADER STYLES*/
 header{
     width: 100%;
@@ -36,6 +36,7 @@ header{
     background-repeat:  no-repeat;
     background-size: 100vw 90vh;
     margin-top: 0;
+    margin-bottom: 10vh;
 }
 .element-haut{
     font-family: 'Rajdhani', sans-serif;
@@ -106,6 +107,8 @@ button a{
     color: white;
 }
 
+
+/*Style élement de coté*/
 aside{
     position: fixed;
     margin-top: 44vh;
@@ -149,11 +152,13 @@ aside ul li{
     transition: 0.4s;
 }
 .fleche-bas a img:hover{
-    margin-top: 10px;
+    margin-top: 5vh;
     margin-bottom: -10px;
     transition: 0.4s;
 }
 
+
+/*Styles pour les articles*/
 article p{
     text-align: justify;
 }
@@ -194,7 +199,8 @@ article p{
     transition: 0.4s;
 }
 .img-bat img:hover{
-    margin-top: -30px;
+    transform: scale(1.1);
+    /*margin-top: -30px;*/
     margin-bottom: 30px;
     transition: 0.4s;
 }
@@ -217,7 +223,7 @@ article p{
     margin-top: -10vh;
 }
 
-
+/*Justice league styles*/
 .justice-league-img img{
     
     width: 100%;
@@ -276,7 +282,7 @@ article p{
     font-size: 12px;
 }
 
-
+/**STYLES Formulaire*/
 .formulaire{
     display: flex;
     justify-content: center;
